@@ -1,4 +1,4 @@
-# GameStopStudy
+# GameStop Study in R
 
 I've decided to analyse and study the action of Gamestop, more precisely the adjusted closure after the big raise that happened in February 2021.
 I consider a daily analysis and picked a whole year, as time window, to get enough data.
