@@ -2,7 +2,6 @@
 import pandas as pd
 import re
 import numpy as np
-pd.options.mode.chained_assignment = None
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
@@ -489,7 +488,7 @@ sns.barplot(x = 'price', y = 'title', data = edx_db2[(edx_db2.price>200)&(edx_db
 
 
     
-![png](output_5_1.png)
+![png](images/output_5_1.png)
     
 
 
@@ -507,7 +506,7 @@ sns.barplot(x = 'n_enrolled', y = 'title', data = edx_db2[(edx_db2.price>200)&(e
 
 
     
-![png](output_6_1.png)
+![png](images/output_6_1.png)
     
 
 
@@ -525,7 +524,7 @@ sns.scatterplot(x = 'course_length', y = 'price', data = edx_db2)
 
 
     
-![png](output_7_1.png)
+![png](images/output_7_1.png)
     
 
 
@@ -1128,6 +1127,6 @@ plt.plot(edx_udemy['Time'], edx_udemy['udemy'])
 
 
     
-![png](output_14_1.png)
+![png](images/output_14_1.png)
     
 
